@@ -1,0 +1,55 @@
+git config --global user.name "your_name"
+git config --global user.email "your_email"
+
+To edit the name and email
+git config --global --edit
+
+esc :wq
+
+For creating new folder:-
+mkdir New_folder
+cd New_folder/
+
+For initializing empty git repository:-
+git init
+
+Write ls nothing
+but if you write ls -a shows hidden file
+
+
+What is the status of the repository:-
+git status
+
+By using git add it comes from working directory to staging area and after commit it is send to the repository
+So to add into the repository:-
+git add file_name
+OR
+git add . [to add everything]
+
+git status
+
+So to commit :
+git commit -m "initial commit"
+
+
+To check number of commits:-
+git log
+
+To create new branch:-
+git branch dev
+git branch
+
+git checkout dev
+OR
+git checkout -b dev1
+
+
+For merging branch:-
+git checkout dev
+git merge dev1
+
+
+To push into github:-
+git remote -v
+git remote add origin 
+git remote -v
